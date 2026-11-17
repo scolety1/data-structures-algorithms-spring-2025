@@ -1,12 +1,10 @@
 # Data Structures and Algorithms — Spring 2025
 
-A collection of Java course exercises uploaded by Spencer Colety. Keep this as one browsable archive rather than many tiny repositories.
+My Java coursework from Spring 2025, covering trees, hashing, graphs and algorithm implementation.
 
-## Independently written sample
+## Binary search tree example
 
-Spencer Colety confirmed on November 14, 2026 that he personally wrote the [`insert`](https://github.com/scolety1/data-structures-algorithms-spring-2025/blob/main/Jan30_2/src/jam30/BinarySearchTree.java#L19) and [`inOrder`](https://github.com/scolety1/data-structures-algorithms-spring-2025/blob/main/Jan30_2/src/jam30/BinarySearchTree.java#L71) methods in `Jan30_2/src/jam30/BinarySearchTree.java`. `insert` iteratively descends the tree, rejects duplicates and sets parent links; `inOrder` recursively visits left subtree, value and right subtree. This attribution is based on his firsthand confirmation, not inferred from the bulk-upload commit.
-
-The claim covers those two methods only. Other methods, support classes and exercises may include lecture or starter material; their independent authorship is not established. This is an unbalanced binary search tree, so insertion can take linear time in the worst case.
+In [BinarySearchTree.java](Jan30_2/src/jam30/BinarySearchTree.java), I implemented iterative insertion with duplicate rejection and parent links, and recursive in-order traversal. The tree is unbalanced, so insertion can take linear time in the worst case.
 
 ## Where to start
 
@@ -23,8 +21,10 @@ java -cp build/demo jam30.BinarySearchTreeDemo
 
 Compilation and the sample program completed successfully. The sample inserts integers, prints in-order traversal, then height and a cousin query. It is a smoke demonstration, not comprehensive correctness proof; other folders include unfinished exercises.
 
-## Contribution and reuse
+## About this archive
 
-The Git history records a bulk upload by `scolety1`, which establishes collection stewardship but does not distinguish student-authored methods from instructor starter code, examples or teammate work. Existing source credits remain authoritative. This archive should not be represented as wholly original or independently hand-coded without file-level confirmation.
+This coursework comes from the period when I primarily wrote and debugged code directly, before adopting coding agents. Course examples and starter code retain their original attribution.
 
-No new assignment solutions or instructor materials were added for this documentation update. Course restrictions and third-party rights still apply; public availability is not a blanket reuse license. This README was prepared with AI assistance. The exercise source was left unchanged.
+These exercises were originally developed and kept on my computer, then uploaded together in November 2026. The recent Git history reflects that upload, not when I wrote the coursework. Original lab and project folders are retained as separate exercises.
+
+README presentation was updated with AI assistance; exercise source is unchanged.
